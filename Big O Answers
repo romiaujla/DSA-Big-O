@@ -1,0 +1,31 @@
+1.1. Determine the Big O for the following algorithm: You are sitting in a room with 15 people. You want to find a playmate for your dog, preferably of the same breed. So you want to know if anyone out of the 15 people have the same breed as your dog. You stand up and yell out, who here has a golden retriever and would like to be a playdate for my golden. Someone yells - "I do, be happy to bring him over"
+ - O(1)
+ 
+ 
+1.2. Determine the Big O for the following algorithm: You are sitting in a room with 15 people. You want to find a playmate for your dog who is of the same breed. So you want to know if anyone out of the 15 people have the same breed as your dog. You start with the first person and ask him if he has a golden retriever. He says no, then you ask the next person, and the next, and the next until you find someone who has a golden or there is no one else to ask.
+ - O(n)
+ 
+2. Even or odd
+ - O(1), the function just goes through once regardless of any value we send thru it. 
+ 
+3. Are you here?
+ - O(n*x), where arr1 size is 'n' and arr2 size is 'x', the outer for loop runs till the end of arr1 and the inner loop runs every time the outer loop is run till the end of arr2. 
+ 
+4. Doubler
+ - O(n), where array size is 'n', the for loop will always run till the end of the array. 
+ 
+5. Naive Search
+ - O(n), where array size is 'n', when the item is at the end of the array. (Worst Case)
+ - O(1), when the item is in the first position of the array. (Best Case)
+ 
+6. Creating pairs:
+ - O(n^2, ), assuming size of array is n
+ 
+7. Compute the sequence
+ - O(n), the for loops runs n times. 
+ 
+8. An efficient search
+ - O(log n), as the array is divided into half every time the loop runs. 
+
+9. Random element
+ - O(1), it just return an random element in the array, and as arrays are referenced by indexes so only one operation is carried out. 
